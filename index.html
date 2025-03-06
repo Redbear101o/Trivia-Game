@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container" id="loading">
+        <span aria-busy="true">Fetching Question...</span>
+    </div>
+    <main class="container" id="app">
+        <h1 id="question"></h1>
+        <h3 id="category"></h3>
+        <div id="options">
+            <button id="answer1">PRESS ME</button>
+            <button id="answer2">PRESS ME</button>
+            <button id="answer3">PRESS ME</button>            
+            <button id="answer4">PRESS ME</button>
+        </div>
+    </main>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
